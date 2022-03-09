@@ -136,9 +136,9 @@ main() {
     FLAG=0
     while [[ "$FLAG" != 1 && "$USER_LIMIT" != $(("$N" + 1)) ]]; do
         if [[ "$(("$N" + 1 - "$USER_LIMIT"))" == 1 ]]; then
-            printf "%b$(("$N" + 1 - "$USER_LIMIT")) try remains%b\n" "$BIPurple" "$Color_Off"
+            printf "%b$(("$N" + 1 - "$USER_LIMIT")) attempt remaining%b\n" "$BIPurple" "$Color_Off"
         else
-            printf "%b$(("$N" + 1 - "$USER_LIMIT")) tries remains%b\n" "$BIPurple" "$Color_Off"
+            printf "%b$(("$N" + 1 - "$USER_LIMIT")) attempts remaining%b\n" "$BIPurple" "$Color_Off"
         fi
         Read_Input
         Word_FinalCongoIfRight
