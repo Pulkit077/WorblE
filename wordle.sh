@@ -127,7 +127,7 @@ main() {
     Rules
 
     # Only for debugging purposes
-    Debugging_Daily_Word
+#    Debugging_Daily_Word
 
     # Once at the start print Input Length Msg
     printf "%bInput Word should be of length $N %b\n\n\n" "$BIRed" "$Color_Off"
